@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Iviti MAX</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Iviti MAX</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>🎬 Iviti <span>MAX</span></h1>
-  <input type="text" id="searchInput" placeholder="Recherche un film ou une série...">
-</header>
+<button class="logout-btn" onclick="logout()">Déconnexion</button>
+
+<h1>🎬 Iviti <span>MAX</span></h1>
+
+<input type="text" id="searchInput" placeholder="Recherche un film ou une série...">
 
 <nav>
-  <button onclick="filterBy('All')">Tous</button>
-  <button onclick="filterBy('Long-métrage')">Longs-métrages</button>
-  <button onclick="filterBy('Série')">Séries</button>
-  <button onclick="filterBy('Court-métrage')">Courts-métrages</button>
+<button onclick="filterBy('All')">Tous</button>
+<button onclick="filterBy('Film')">Films</button>
+<button onclick="filterBy('Série')">Séries</button>
 </nav>
 
 <section id="videosContainer"></section>
-
-<footer>
-  <p>© 2025 Iviti MAX — Streaming Platform</p>
-</footer>
 
 <script src="app.js"></script>
 </body>
