@@ -40,5 +40,6 @@ return;
 
 localStorage.setItem("loggedUser", username);
 
+alert("Connexion réussie !");
 window.location.href = "index.html";
 }
