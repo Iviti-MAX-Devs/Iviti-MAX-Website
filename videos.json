@@ -1,8 +1,14 @@
 [
-  {
-    "title": "J'ai survécu 1000 jours en hardcore sur Minecraft !",
-    "category": "Long-métrage",
-    "url": "https://www.youtube.com/watch?v=48FNHVG9MJk&pp=ygUGbWluc3Fh",
-    "thumbnail": "https://imgur.com/a/qwupLG8"
-  }
+{
+"title":"Film Exemple",
+"category":"Film",
+"url":"https://example.com/video.mp4",
+"thumbnail":"https://via.placeholder.com/300x170"
+},
+{
+"title":"Série Exemple",
+"category":"Série",
+"url":"https://example.com/video2.mp4",
+"thumbnail":"https://via.placeholder.com/300x170"
+}
 ]
